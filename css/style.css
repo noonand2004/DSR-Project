@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+body {	margin: 0; }
+
+
+#top {
+    width: 1440px;
+    height: 133px;
+     margin: 0 auto;
+}
+
+a {
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+nav {
+    width: 1440px;
+    height: 133px;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 120px;
+}
+nav a:hover{ 
+    color: #658095;
+    text-decoration:underline;
+
+}
+.navleft{
+    float: left;
+    width: 25%;
+    height: 133px;
+    text-align: center;
+}
+
+.logo{
+    background-image: url(../images/LOGO\ 2.png);
+    width: 50%;
+    height: 133px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navright{
+    float: left;
+    width: 25%;
+    height: 133px;
+    text-align: center;
+}
+
+.separate{
+    border: 5px solid black;
+    width: 1318px;
+
+}
+
+#Homepageheader{
+    width: 100vw;
+    height: 520px;
+    background-image: url(../images/HOMEPageheader.png);
+    background-position: center center;
+    background-size: cover;
+}
