@@ -53,9 +53,8 @@ nav a:hover{
 }
 
 .separate{
-    border: 5px solid black;
+    border: 3px solid black;
     width: 1318px;
-
 }
 
 #Homepageheader{
@@ -65,3 +64,25 @@ nav a:hover{
     background-position: center center;
     background-size: cover;
 }
+
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.move-right {
+  position: absolute;
+  left: 50%;  
+  transform: translateX(-50%);
+}
+
+.PROJECTS {
+  margin-top: 85px;
+  float: left;
+  margin-left: 30px;
+}
+
+
+
+
+
