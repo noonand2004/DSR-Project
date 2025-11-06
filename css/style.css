@@ -82,7 +82,322 @@ nav a:hover{
   margin-left: 30px;
 }
 
+.projects-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.button-container {
+  margin-top: 700px;
+}
+
+.more-projects-btn {
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  float: left;
+  margin-left: 600px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.more-projects-btn:hover {
+  background-color: #84a1b8;
+  color: white;
+  
+}
+
+/* EDUCATION SECTION STYLES */
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* space between cards */
+  margin-top: -80px;
+  flex-wrap: wrap; /* helps on smaller screens */
+
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* subtle overlay */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+  transition: background 0.4s ease;
+}
+
+.project-card h3 {
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+.project-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Make links fill the whole card */
+.project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* CULTURAL SECTION STYLES */
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px; /* space between images */
+  margin: 80px auto 40px auto;
+  max-width: 1200px; /* keeps them nicely centered on large screens */
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* subtle overlay */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+  transition: background 0.4s ease;
+}
+
+.project-card h2 {
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+.project-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Make links fill the whole card */
+.project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* PUBLICATION SECTION STYLES */
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px; /* space between images */
+  margin: 80px auto 40px auto;
+  max-width: 1200px; /* keeps them nicely centered on large screens */
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* subtle overlay */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+  transition: background 0.4s ease;
+}
+
+.project-card h3 {
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+.project-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Make links fill the whole card */
+.project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.project-card h1 {
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
 
 
 
+/* PROJECTS SECTION LAYOUT — clean row, even spacing, centered button */
 
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px; /* space between images */
+  margin: 80px auto 40px auto;
+  max-width: 1200px; /* keeps them nicely centered on large screens */
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  width: 360px; /* consistent width for all cards */
+  height: 480px; /* consistent height */
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Overlay text */
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.project-card h3, .project-card h1 {
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect */
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+/* Keeps all text aligned consistently */
+.project-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Center the MORE PROJECTS button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
