@@ -79,7 +79,7 @@ nav a:hover{
 .PROJECTS {
   margin-top: 85px;
   float: left;
-  margin-left: 30px;
+  margin-left: 30px; 
 }
 
 .projects-container {
@@ -96,6 +96,7 @@ nav a:hover{
 
 .button-container {
   margin-top: 700px;
+  clear:both;
 }
 
 .more-projects-btn {
@@ -107,28 +108,21 @@ nav a:hover{
   letter-spacing: 1px;
   transition: all 0.3s ease;
   float: left;
-  margin-left: 600px;
+  margin-left: 700px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: left;
+  margin-top: -30px;
 
 }
 
 .more-projects-btn:hover {
   background-color: #84a1b8;
   color: white;
-  
+  float: left;
+
 }
 
 /* EDUCATION SECTION STYLES */
-
-.projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px; /* space between cards */
-  margin-top: -80px;
-  flex-wrap: wrap; /* helps on smaller screens */
-
-}
 
 .project-card {
   position: relative;
@@ -138,6 +132,8 @@ nav a:hover{
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  float: left;
+  margin-top: -20px;
 }
 
 .project-card img {
@@ -160,6 +156,7 @@ nav a:hover{
   align-items: flex-start;
   padding-top: 25px;
   transition: background 0.4s ease;
+  float: left;
 }
 
 .project-card h3 {
@@ -189,14 +186,6 @@ nav a:hover{
 
 /* CULTURAL SECTION STYLES */
 
-.projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 35px; /* space between images */
-  margin: 80px auto 40px auto;
-  max-width: 1200px; /* keeps them nicely centered on large screens */
-}
 
 .project-card {
   position: relative;
@@ -206,6 +195,9 @@ nav a:hover{
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  float: left;
+  margin-top: 200px;
+  margin-left: 70px;
 }
 
 .project-card img {
@@ -247,7 +239,6 @@ nav a:hover{
   background: rgba(0, 0, 0, 0.45);
 }
 
-/* Make links fill the whole card */
 .project-link {
   display: block;
   width: 100%;
@@ -263,6 +254,7 @@ nav a:hover{
   gap: 35px; /* space between images */
   margin: 80px auto 40px auto;
   max-width: 1200px; /* keeps them nicely centered on large screens */
+  float: left;
 }
 
 .project-card {
@@ -273,6 +265,7 @@ nav a:hover{
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  float: left;
   
 }
 
@@ -282,6 +275,7 @@ nav a:hover{
   object-fit: cover;
   display: block;
   transition: transform 0.4s ease, filter 0.4s ease;
+  
 }
 
 .project-card .overlay {
@@ -298,13 +292,6 @@ nav a:hover{
   transition: background 0.4s ease;
 }
 
-.project-card h3 {
-  color: white;
-  font-size: 22px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
-}
 
 .project-card:hover img {
   transform: scale(1.05);
@@ -329,75 +316,273 @@ nav a:hover{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 1px;
   text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  
 }
 
 
+body {
+  font-family: 'Georgia', serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
-/* PROJECTS SECTION LAYOUT — clean row, even spacing, centered button */
-
-.projects-container {
+.studio-section {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 35px; /* space between images */
-  margin: 80px auto 40px auto;
-  max-width: 1200px; /* keeps them nicely centered on large screens */
+  align-items: stretch;
+  max-width: 1000px;
+  margin: 50px auto;
 }
 
-.project-card {
-  position: relative;
-  overflow: hidden;
-  width: 360px; /* consistent width for all cards */
-  height: 480px; /* consistent height */
-  border-radius: 4px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.project-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease, filter 0.4s ease;
-}
-
-/* Overlay text */
-.project-card .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 20px;
-}
-
-.project-card h3, .project-card h1 {
+.studio-text-box {
+  background-color: #6B7C8B; /* bluish-gray */
   color: white;
-  font-size: 22px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 40px;
+  flex: 3;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+  margin-top: 50px;
+
+  width: 90%;  /* make it wider overall */
+  margin-left: -800px;   /* pushes the box left */
+  box-sizing: border-box;
+}
+
+.studio-vertical {
+  flex: 0.5;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studio-vertical h2 {
+  font-size: 70px;
+  color: #5A5555;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.read-more-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.read-more-btn {
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  background-color: white;
+  transition: 0.3s ease;
+  float: left;
+  margin-left: 735px;
+  margin-top: -30px;
 }
 
-/* Hover effect */
-.project-card:hover img {
-  transform: scale(1.05);
-  filter: brightness(70%);
+.read-more-btn:hover {
+  background-color: #84a1b8;
+  color: white;
+  border-color: #84a1b8;
+  cursor: pointer;
 }
 
-/* Keeps all text aligned consistently */
-.project-card:hover .overlay {
-  background: rgba(0, 0, 0, 0.25);
+
+.meet-us {
+  background-color: #a6b6c4;  /* bluish-gray like your image */
+  text-align: center;
+  padding: 80px 0;
+  color: white;
+  font-family: 'Cambria', serif;
 }
 
-/* Center the MORE PROJECTS button */
-.button-container {
+.meet-us h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+  color: #4a4a4a;
+}
+
+.member {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #91a4b6;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.member img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.member h2 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.member p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  text-align: center;
+}
+
+/* NEWS SECTION */
+.news-section {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  padding: 100px 0;
+  font-family: 'Cambria', serif;
+}
+
+/* Vertical "NEWS" text */
+.vertical-text {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 70px;
+  letter-spacing: 5px;
+  color: #8c8686;
+  margin: 0;
+}
+
+/* News images layout */
+.news-images {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-left: 100px; /* leaves space for vertical NEWS */
 }
+
+.news-images img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.news-images img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Read more button */
+.read-more-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 30px;
+  border: 2px solid black;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #84a1b8; /* your preferred hover blue */
+  color: white;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  text-align: center;
+  padding: 100px 0;
+  background-color: white;
+}
+
+.contact-section h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: #8c8686;
+  margin: 0;
+}
+
+
+/* CONTACT FOOTER */
+.contact-footer {
+  background-color: #91a4b6;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Cambria', serif;
+  height: 348px;
+  float: left;
+  width: 1440px;
+  margin-top: 50px;
+}
+
+.footer-logo img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.footer-nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer-info {
+  margin-top: 40px;
+  line-height: 1.8;
+}
+
+.footer-info p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.footer-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-info a:hover {
+  color: #dfe6ed;
+}
+
+#spacer {
+    float: left;
+    width: 125px;
+    height: 100px;
+}
+
