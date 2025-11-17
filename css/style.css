@@ -586,12 +586,46 @@ body {
     height: 100px;
 }
 
-
 /* EDUCATION SECTION (PROJECTS) */
 
 .EDUCATION_PROJECT_ABROAD{
     width: 1440px ;
 }
 
+.main_paragraph {
+  width: 100vw;
+  background-color: #658095;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+  .main_paragraph p {
+    color: white;
+    width: 800px;
+    margin:  auto;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+  
+  }
 
+/* CULTURAL SECTION (PROJECTS) */
+
+.EDUCATION_PROJECT_ABROAD{
+    width: 1440px ;
+}
+
+.main_paragraph {
+  width: 100vw;
+  background-color: #658095;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  .main_paragraph p {
+    color: white;
+    width: 800px;
+    margin:  auto;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+  
+  }
